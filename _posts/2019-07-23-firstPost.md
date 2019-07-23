@@ -2,6 +2,13 @@
 published: true
 layout: single
 title:  "블로그 첫글!"
+header:
+  overlay_image: /images/unsplash-image-1.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "Learn more"
+      url: "https://unsplash.com"
+      
 categories: [blog]
 tags: [daily]
 comments: true
