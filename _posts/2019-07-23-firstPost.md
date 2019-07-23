@@ -1,8 +1,10 @@
 ---
-layout: post
+published: true
+layout: single
 title:  "블로그 첫글!"
 categories: [blog]
 tags: [daily, blog]
+comments: true
 ---
 
 # 안녕하세요!
