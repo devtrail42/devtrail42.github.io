@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "블로그 첫글!"
+categories: [blog]
+tags: [daily, blog]
 ---
 
 # 안녕하세요!
@@ -11,3 +13,21 @@ title:  "블로그 첫글!"
 시간나는 대로 포스팅 하겠습니다.  
 
 I hope you like it!
+
+{% for category in site.categories %}
+  <h3>{{ category[0] }}</h3>
+  <ul>
+    {% for post in category[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
+
+{% for category in site.tags %}
+  <h3>{{ tag[0] }}</h3>
+  <ul>
+    {% for post in tag[1] %}
+      <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+  </ul>
+{% endfor %}
