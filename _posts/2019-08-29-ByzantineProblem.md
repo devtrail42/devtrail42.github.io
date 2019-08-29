@@ -10,11 +10,12 @@ header:
       url: "https://unsplash.com"
       
 categories: [blockchain]
-tags: [YBL], [blockchain]
+tags: [YBL]
 comments: true
 ---
 
 # Bitcoin : P2P payment system 탄생 배경 첫번째 
+
 
 # 들어가기 전에..
 
@@ -23,6 +24,8 @@ comments: true
 > 새로운 기술의 대한 열정이, 
 새로운 세상을 만들어 나가는데 
 도움이 되길 바랍니다.
+
+
 
 # 글의 목표
 
