@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title:  "Bitcoin_P2P payment system 탄생 배경 첫번째 - 장부와 비잔틴 장군 문제"
+title:  "장부와 비잔틴 장군 문제"
 header:
   overlay_image: /images/unsplash-image-1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
@@ -13,6 +13,8 @@ categories: [blog]
 tags: [daily]
 comments: true
 ---
+
+# Bitcoin : P2P payment system 탄생 배경 첫번째 
 
 # 들어가기 전에..
 
@@ -44,7 +46,7 @@ comments: true
 현대적, 효율적 삶을 위한 수단으로 거래가 발생하지만, 거래가 진실로 이루어지기 위해서는 상호간의  신뢰가 필수적이었습니다. 이는 복식부기라는 개념을 처음 소개한 책의 머리글만 봐도 알 수 있습니다.
 
 > "신의 이름으로 기록한다"
-- 복식부기를 처음 소개한 『대수, 기하, 비 및 비례총람』
+복식부기를 처음 소개한 『대수, 기하, 비 및 비례총람』
 (Pacioli,1494) 의 첫머리글
 
 신뢰라는 것은 모든 거래에 있어 기초가 됩니다. 하지만 모든 거래 기록들을 어떻게 믿고 서로 합의에 이를 수 있을까요?  
