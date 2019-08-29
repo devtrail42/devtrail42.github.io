@@ -9,8 +9,8 @@ header:
     - label: "Learn more"
       url: "https://unsplash.com"
       
-categories: [blog]
-tags: [daily]
+categories: [blockchain]
+tags: [YBL], [blockchain]
 comments: true
 ---
 
