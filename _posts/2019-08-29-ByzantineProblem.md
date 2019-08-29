@@ -1,4 +1,18 @@
-# 비트코인(Bitcoin : P2P payment system) 탄생 배경 첫번째 : 장부와 비잔틴 장군 문제 
+---
+published: true
+layout: single
+title:  "비트코인(Bitcoin : P2P payment system) 탄생 배경 첫번째 : 장부와 비잔틴 장군 문제"
+header:
+  overlay_image: /images/unsplash-image-1.jpg
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
+  actions:
+    - label: "Learn more"
+      url: "https://unsplash.com"
+      
+categories: [BlockChain]
+tags: [YBL],[BlockChain]
+comments: true
+---
 
 Created By: Brandon Kang
 Last Edited: Aug 29, 2019 2:04 PM
@@ -109,7 +123,7 @@ PBFT를 구현하기 위해 지휘관과 지휘관의 명령을 받은 부관들
 
 논문의 있는 그림을 통해 예시를 들면서 다시한번 이야기 해보겠습니다. 
 
-![](1_IVMEKaA35NAM6sjKT_R2aA-902456aa-6bd2-4c91-9868-baaa3b467b67.png)
+![](/images/PBFT1.png)
 
 먼저 부관 3이 배신자인 경우 입니다. 
 지휘관은 v라는 명령을 각 부관에게 전파했습니다. 부관 1,2,3은 v라는 명령을 받았고 이를 확인하기 위해서 다른 부관들의 의견을 한 번 더 받아봅니다. 
@@ -119,7 +133,7 @@ PBFT를 구현하기 위해 지휘관과 지휘관의 명령을 받은 부관들
 
 따라서 3/4이 v에 대해 합의하고 전체적인 시스템은 유지가 됩니다. 
 
-![](1_FqWerJdheG1CJoMquKKieg-ee070951-3519-40ed-86b0-15930d36c6ee.png)
+![](/images/PBFT2.png)
 
 지휘관이 배신자인 경우에는 어떻게 될까요?
 우선 지휘관이 x라는 명령을 하달합니다. 부관들도 x라는 명령에 대해 서로에게 전파를 하고 전체적인 시스템은 x에 대해 합의합니다. x라는 명령을 모두가 실행하더라도 전쟁에서는 문제될것이 없습니다. 공격이라면 성을 함락시키는데에 성공할 것이고 후퇴라면 모두가 살아남기 때문입니다. 
