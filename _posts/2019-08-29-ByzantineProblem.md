@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title:  "비트코인(Bitcoin : P2P payment system) 탄생 배경 첫번째 : 장부와 비잔틴 장군 문제"
+title:  "Bitcoin / P2P payment system 탄생 배경 첫번째 : 장부와 비잔틴 장군 문제"
 header:
   overlay_image: /images/unsplash-image-1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
@@ -10,12 +10,9 @@ header:
       url: "https://unsplash.com"
       
 categories: [BlockChain]
-tags: [YBL],[BlockChain]
+tags: [YBL] , [BlockChain]
 comments: true
 ---
-
-Created By: Brandon Kang
-Last Edited: Aug 29, 2019 2:04 PM
 
 # 들어가기 전에..
 
