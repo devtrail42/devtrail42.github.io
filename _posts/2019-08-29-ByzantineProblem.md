@@ -171,4 +171,7 @@ PBFT를 구현하기 위해 지휘관과 지휘관의 명령을 받은 부관들
 
 <https://www.binance.vision/ko/blockchain/byzantine-fault-tolerance-explained>
 
-<https://ko.wikipedia.org/wiki/%EB%B9%84%EC%9E%94%ED%8B%B0%EC%9B%80_%EC%9E%A5%EC%95%A0_%ED%97%88%EC%9A%A9>
+<https://en.wikipedia.org/wiki/Byzantine_fault>  
+
+  
+
