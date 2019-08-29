@@ -10,7 +10,7 @@ header:
       url: "https://unsplash.com"
       
 categories: [blockchain]
-tags: [YBL] [blockchain]
+tags: [YBL]
 comments: true
 ---
 
