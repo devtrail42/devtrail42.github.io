@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title:  "블록체인 이해하기 - 1.장부와 비잔틴 장군문제"
+title:  "블록체인 이해하기 1 : 장부와 비잔틴 장군문제"
 header:
   overlay_image: /images/unsplash-image-1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
