@@ -14,7 +14,7 @@ tags: [YBL,blockchain]
 comments: true
 ---
 
-# 블록체인 이해하기 시리즈 첫번째  
+블록체인 이해하기 시리즈 첫번째  
   
   
   
