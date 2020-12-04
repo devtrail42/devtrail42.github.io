@@ -201,7 +201,7 @@ def solution(no, works):
 이런식으로 비교 정렬 알고리즘은 비교를 통해 경우의 수를 절반씩 줄일 수 있다. 최악의 경우 절반으로 나눌 수 있는 최댓값인 <code>⌈log2 n!⌉ ≈ logn!</code>번을 계산해야한다.
 
 여기서 스탈링 근사를 이용하면 n! ≈ e^(n log n − n) √(2πn) 이므로 다음과 같은 수식들을 유도해낼 수 있다. 
-> log n! = log e^(n log n − n) √(2πn)
->   = n log n − n + log√(2πn)
->   = n log n − n + 1/2 log n + 1/2 log 2π
->   = O(n log n)
+> log n! = log e^(n log n − n) √(2πn)  
+>   = n log n − n + log√(2πn)  
+>   = n log n − n + 1/2 log n + 1/2 log 2π  
+>   = O(n log n)  
