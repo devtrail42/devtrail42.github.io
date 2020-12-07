@@ -64,12 +64,12 @@ $$x - 2y = 1$$
 
 ### 1. 선형 방정식
 
-* linear  
+* **linear**  
 선의 형태를 나타내는 식?  
 -> linear란 평면이나 왜곡되지 않은 공간(올곧은 공간)을 의미힙니다.  
 ex) $3x + y + z = 4$ -> 평면 (올곧게 그려진다) -> linear하다. 
 
-* unknown(variable)   
+* **unknown(variable)**   
 우리가 알아내려는 미지수들을 의미합니다. ex) $x, y, z ...$
 
 $$ 3x + y + z = 4 $$  
@@ -88,10 +88,10 @@ $$ x + y + z = 2 $$
 앞서 살펴본 것처럼 $A^{-1}$을 이용해 x를 구할 수 있을 것 입니다.
 
 과정은 다음과 같습니다.  
-1. 선형시스템의 미지수들을 모아 column vector(열벡터) x로 표현합니다.  
+1. 선형시스템의 미지수들을 모아 **column vector(열벡터)** x로 표현합니다.  
 2. 선형시스템의 linear equation(선형방정식)에 대해 다음을 수행합니다.  
-    - coefficients(계수)를 모아 A의 row vector(행벡터)로 표현합니다.   
-    - constant(상수)를 모아 b에 표현합니다.  
+    - **coefficients(계수)**를 모아 $A$의 **row vector(행벡터)**로 표현합니다.   
+    - **constant(상수)**를 모아 $b$에 표현합니다.  
 
 $$\begin{bmatrix}
 3 & 1 & 2\\
@@ -111,18 +111,20 @@ z
 \end{bmatrix} 
 $$   
 
-3. 선형시스템의 해 
-선형시스템의 해의 종류는 3가지가 있다. 
-    * unique solution : 3x = 6
-    * no solution : 0x = 6
-    * infinitely many solution : 0x = 0
+### 3. 선형시스템의 해 
 
-* ~a = 0이면 특이한 경우가 나온다?~ 
-    * ax = b 의 해가 바로 나오지 않는 이유
-        * a의 역수(inverse)가 존재하지 않기 때문-> 이 경우에 a가 특이(singular)하다 이야기 한다. 
+선형시스템의 해의 종류는 3가지가 있습니다. 
+    * 해가 1개 있는 경우 (unique solution) : $3x = 6$
+    * 해가 없는 경우 (no solution) : $0x = 6$
+    * 해가 무수히 많은 경우 (infinitely many solution) : $0x = 0$
 
-* 해가 존재하면 선형시스템이 consistent 하다고 한다. 
-* 해가 없으면 선형시스템이 inconsistent 하다고 한다.  
+~~위 예시를 보면 $A = 0$이면 특이한 경우가 나오는 걸까요?~~
+$Ax = b$ 의 해가 바로 나오지 않는 이유는  
+A의 **역수(inverse)**가 존재하지 않기 때문입니다.  
+위와 같은 경우를 $A$가 **특이(singular)**하다고 일컫습니다.  
+
+해가 존재하면 선형시스템이 **consistent** 하다고 하며   
+* 해가 없으면 선형시스템이 **inconsistent** 하다고 한다.  
 
 
 ## 가우스 소거법
