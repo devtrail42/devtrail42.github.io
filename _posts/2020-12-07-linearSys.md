@@ -144,15 +144,42 @@ A의 **역수(inverse)**가 존재하지 않기 때문입니다.
 주어진 선형시스템을 아래로 갈수록 더 단순한 형태의 선향방정식을 가지도록 변형합니다.
 2. **back-substition(후방대입법)** : 아래서부터 위로, 미지수를 실제값으로 대체합니다. 
 
-전방소거법은 아래로 갈수록 더 단순해지는 식을 만드는걸 목표로한다. 
-
 ### 소거법에 쓰이는 elementary row operation (EROs, 기본행연산)
 
+다음의 행렬이 전방소거법으로 어떻게 변하는지를 보고,  
+기본행 연산에 대해 알아보도록 하겠습니다.  
+
+![](/images/2020-12/linear/forward_elimination_1.png)  
+
+전방소거법으로 진행되는 과정은 다음과 같습니다.  
+
+![](/images/2020-12/linear/forward_elimination_2.png)
+
+각 줄에서 사용된 연산들을 기본행연산이라 부르고 그 종류는 다음과 같습니다.  
+
+![](/images/2020-12/linear/ERO.png)
+
+
 ### Forward Elimination의 가치 
-Gauss elimination에서 forward elimination의 가치는 다음과 같다.
-    * 주어진 선형시스템을 가장 풀기 쉬운 꼴로 변형해 준다.
-    * 주어진 선형시스템의 rank(랭크)를 알려준다. -> rank : 의미있는 수식의 갯수 
-    * 선형시스템이 해가 있는지 없는지 알려준다. (consistent vs inconsistent)
+
+Gauss elimination에서 forward elimination의 가치에 대해 알아봅시다.
+
+* 주어진 선형시스템을 가장 풀기 쉬운 꼴(upper triangular form)로 변형해 줍니다.
+
+![](/images/2020-12/linear/upper_triangular.png)
+
+* 주어진 선형시스템의 **rank(랭크)**를 알려줍니다.  
+    rank : 의미있는 수식의 갯수 
+
+![](/images/2020-12/linear/rank.png)
+
+* 선형시스템이 해가 있는지 없는지 알려줍니다. (consistent vs inconsistent)
+
+![](/images/2020-12/linear/consist_inconsist.png)
+
+
+
+
 
 
 
