@@ -2,6 +2,8 @@
 main:
   - title: "Archive"
     url: /year-archive/
+  - title: "TIL"
+    url: /categories/til
   - title: "Tag"
     url: /tags/
   - title: "Category"
