@@ -10,7 +10,7 @@ header:
       url: "https://en.wikipedia.org/wiki/Bayesian_inference"
       
 categories: [AI math_basic]
-tags: [programmers, AI, math, statistics]
+tags: [programmers, AI]
 comments: true
 ---
 

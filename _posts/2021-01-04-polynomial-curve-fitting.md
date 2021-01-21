@@ -10,7 +10,7 @@ header:
       url: ""
       
 categories: [ML]
-tags: [programmers,Machine Learning,fitting]
+tags: [programmers,Machine Learning]
 comments: true
 ---
 

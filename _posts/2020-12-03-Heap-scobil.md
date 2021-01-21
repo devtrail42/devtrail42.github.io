@@ -10,7 +10,7 @@ header:
       url: "https://google.com"
       
 categories: [study]
-tags: [algorithm,python,programmers,heap]
+tags: [algorithm,programmers]
 comments: true
 ---
 

@@ -10,7 +10,7 @@ header:
       url: "https://en.wikipedia.org/wiki/Linear_map"
       
 categories: [AI math_basic]
-tags: [programmers, AI, math, linear]
+tags: [programmers, AI]
 comments: true
 ---
 

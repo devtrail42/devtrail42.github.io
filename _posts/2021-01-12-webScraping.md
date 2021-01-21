@@ -10,7 +10,7 @@ header:
       url: ""
       
 categories: [web]
-tags: [Web Crawling, Data, EDA]
+tags: [study]
 comments: true
 ---
 
