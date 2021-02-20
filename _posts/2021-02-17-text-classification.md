@@ -127,7 +127,7 @@ $$ P(d \mid c) = P( x_1,x_2,...,x_n \mid c) $$
 - 조건부 독립 가정:  
     클래스가 주어지면 속성들은 독립적입니다. 
 
-$ P(x_1, ..., x_n \mid c) = P(x_1 \mid c) \dotp P(x_2 \mid c) \dotp ... \dotp[] P(x_n \mid c) $
+$ P(x_1, ..., x_n \mid c) = P(x_1 \mid c) \bigcdot P(x_2 \mid c) \bigcdot ... \bigcdot P(x_n \mid c) $
 
 &nbsp;
 
