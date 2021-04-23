@@ -3,7 +3,7 @@ published: true
 layout: single
 title:  "[ElasticSearch] Elasticsearch와 Django를 연동해 간단한 검색 API 개발하기"
 header:
-  overlay_image: /images/unsplash-image-1.jpg
+  overlay_image: /images/unsplash-image-2.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   actions:
     - label: "Learn more"
@@ -33,7 +33,7 @@ Elasticsearch는 홈페이지 ([https://www.elastic.co](https://www.elastic.co/)
 
 ZIP 또는 TAR 파일을 내려받아 압축을 풀고, 생성된 bin 디렉토리 아래에 있는 elasticsearch (Windowns의 경우 elasticsearch.bat) 파일을 실행합니다. 데비안이나 레드햇 리눅스 시스템의 경우 DEB, RPM 파일을 내려받아 백그라운드 서비스로 실행도 가능합니다.
 
-이제 Elasticsearch의 설치와 실행이 끝났습니다. 저는 해당 서버의 이름으로 엘라스틱 서치의 노드가 실행된 것을 확인할 수 있었습니다. 
+생성된 bin 디렉토리 아래에 있는 elasticsearch을 실행한 후, 해당 서버의 이름으로 엘라스틱 서치의 노드가 실행된 것을 확인할 수 있었습니다. 
 노드 이름은 직접 지정이 가능하며 지정하지 않았다면 7.0 버전 부터는 호스트명으로 생성되고 5.x, 6.x 버전에서는 노드 프로세스의 UUID의 첫 7자 알파벳으로 지정됩니다.
 
 ```bash
