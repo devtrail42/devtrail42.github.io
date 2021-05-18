@@ -111,7 +111,7 @@ http://localhost:5601 을 실행하면, 키바나 화면을 보실 수 있습니
 
 ## 한글 형태소 분석기 nori 설치
 
-한글 형태소 분석을 위한 nori라는 elastic search의 플러그인을 설치해줍니다. 설치를 실행해주는 파일은 엘라스틱 서치가 설치된 폴더의  bin 디렉터리 밑에 elasticsearch-plugin 파일입니다. 설치 명령어는 bin\elasticsearch-plugin install analysis-nori 입니다.
+한글 형태소 분석을 위한 nori라는 elastic search의 플러그인을 설치해줍니다. 설치를 실행해주는 파일은 엘라스틱 서치가 설치된 폴더의  bin 디렉터리 밑에 elasticsearch-plugin 파일입니다. 설치 명령어는 `bin\elasticsearch-plugin install analysis-nori` 입니다.
 
 ## python elasticsearch & django환경 구성
 
@@ -122,7 +122,7 @@ python -m venv myvenv
 myvenv\Scripts\activate
 ```
 
-pip를 사용해서 django와 djangorestframework를 설치합니다.
+pip를 사용해서 django와 django restframework를 설치합니다.
 
 ```bash
 pip install django
@@ -304,7 +304,7 @@ curl -X POST "http://localhost:9200/dictionary/_bulk" \
 # 장고 어플리케이션 만들기
 
 다음은 장고에서 작성한 views.py 파일입니다. 
-다음과 같이 API를 구성해서 GET요청으로 쿼리 결과를 받아올 수 있습니다. 
+다음과 같이 API를 간단하게 구성해서 GET 요청으로 쿼리 결과를 받아올 수 있습니다. 
 
 ```python
 # django search app view file
