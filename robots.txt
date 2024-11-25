@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://coff33kong.github.io/sitemap.xml
+Sitemap: https://devtrail.github.io/sitemap.xml
