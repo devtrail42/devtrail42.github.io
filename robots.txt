@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://devtrail.github.io/sitemap.xml
+Sitemap: https://devtrail42.github.io/sitemap.xml
