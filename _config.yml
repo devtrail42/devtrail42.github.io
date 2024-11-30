@@ -294,6 +294,8 @@ defaults:
       comments: true
       share: true
       related: true
+      sidebar:
+        nav: "sidebar-category"
       
   # _pages 부분입니다.
   - scope:
