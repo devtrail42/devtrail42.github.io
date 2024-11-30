@@ -12,9 +12,9 @@ sidebar-category:
   - title: "category"
     children:
       - title: TIL
-        url: /til
+        url: /categories/til
       - title: search modeling
-        url: /search_modeling
+        url: /categories/search_modeling
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
