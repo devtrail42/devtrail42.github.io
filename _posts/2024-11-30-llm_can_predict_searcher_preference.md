@@ -9,8 +9,8 @@ header:
     - label: "Learn more"
       url: "https://dl.acm.org/doi/10.1145/3626772.3657707"
       
-categories: [search_modeling]
-tags: [LLM]
+categories: [SearchModeling]
+tags: [LLM, SearchModeling]
 comments: true
 ---
 

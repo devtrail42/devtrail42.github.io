@@ -9,8 +9,8 @@ header:
     - label: "Learn more"
       url: "https://www.microsoft.com/en-us/research/uploads/prod/2024/10/SIGIRAP24_keyword_stuffing__camera_ready_-671f04904292e.pdf"
       
-categories: [search_modeling]
-tags: [LLM]
+categories: [SearchModeling]
+tags: [LLM, SearchModeling]
 comments: true
 ---
 
