@@ -8,6 +8,13 @@ main:
     url: /tags/
   - title: "Category"
     url: /categories/
+sidebar-category:
+  - title: "category"
+    children:
+      - title: TIL
+        url: /til
+      - title: search modeling
+        url: /search_modeling
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
